@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div `
   color: white;
-  background: ${({lightBG}) => (lightBG ? '#f9f9f9' : '010606')};
+  background: ${({lightBG}) => (lightBG ? '#f9f9f9' : 'black')};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -91,7 +91,12 @@ export const ImgWrap = styled.div `
 `
 
 export const Img = styled.img `
+  max-height: 600px;
   with: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  
+  @media screen and (max-width: 768px) {
+    max-height: 400px;
+  }
 `
