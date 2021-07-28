@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
 import {
-  AboutContainer,
-  AboutWrapper,
-  AboutRow,
+  InfoContainer,
+  InfoWrapper,
+  InfoRow,
   Column1,
   Column2,
   TextWrapper,
@@ -13,9 +13,9 @@ import {
   BtnWrap,
   ImgWrap,
   Img
-} from './AboutElements'
+} from './InfoElements'
 
-const AboutSection = ({
+const InfoSection = ({
   lightBg,
   id,
   imgStart,
@@ -26,19 +26,31 @@ const AboutSection = ({
   description,
   buttonLabel,
   img,
-  alt
+  alt,
+  primary,
+  dark,
+  dark2
 }) => {
   return (
-      <AboutContainer lightBg={lightBg} id={id}>
-        <AboutWrapper>
-          <AboutRow imgStart={imgStart}>
+      <InfoContainer lightBg={lightBg} id={id}>
+        <InfoWrapper>
+          <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <SubHeading darkText={darkText}>{description}</SubHeading>
                 <BtnWrap>
-                  <Button to='home'>{buttonLabel}</Button>
+                  <Button to='home'
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                  primary={primary ? 1 : 0}
+                  dark={dark ? 1 : 0}
+                  dark2={dark2 ? 1 : 0}
+                  >{buttonLabel}</Button>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
@@ -47,10 +59,10 @@ const AboutSection = ({
                 <Img src={img} alt={alt}/>
               </ImgWrap>
             </Column2>
-          </AboutRow>
-        </AboutWrapper>
-      </AboutContainer>
+          </InfoRow>
+        </InfoWrapper>
+      </InfoContainer>
   )
 }
 
-export default AboutSection
+export default InfoSection

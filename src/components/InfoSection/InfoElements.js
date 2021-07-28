@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-export const AboutContainer = styled.div `
+export const InfoContainer = styled.div `
   color: white;
-  background: ${({lightBG}) => (lightBG ? '#f9f9f9' : 'black')};
+  background: ${({lightBg}) => (lightBg ? 'white' : 'black')};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `
 
-export const AboutWrapper = styled.div `
+export const InfoWrapper = styled.div `
   display: grid;
   z-index: 1;
   height: 860px;
@@ -21,7 +21,7 @@ export const AboutWrapper = styled.div `
   justify-content: center;
 `
 
-export const AboutRow = styled.div `
+export const InfoRow = styled.div `
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -65,7 +65,7 @@ export const Heading = styled.h1 `
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({lightText}) => (lightText ? '#f7f8fa' : '010606')};
+  color: ${({lightText}) => (lightText ? '#f7f8fa' : 'black')};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -92,7 +92,7 @@ export const ImgWrap = styled.div `
 
 export const Img = styled.img `
   max-height: 600px;
-  with: 100%;
+  max-width: 500px;
   margin: 0 0 10px 0;
   padding-right: 0;
   
