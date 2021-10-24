@@ -3,9 +3,7 @@ body {
   padding: 0;
 }
 
-/* Style images and container */
 main {
-  /* Contains images */
   margin: 10vmin 0 0 0;
   padding-top: 25vmin;
   padding-bottom: 20vmin;
@@ -16,23 +14,20 @@ main {
   width: 100vw;
   position: fixed;
   overflow-y: auto;
-  scroll-behavior: smooth; /* Means anchor links will scroll smoothly */
+  scroll-behavior: smooth; 
 }
 main ul {
-  list-style-type: none; /* No bullet points */
+  list-style-type: none; 
 }
 
 main img {
   display: block;
   width: 60vmin;
-  margin: auto; /* Centered */
+  margin: auto; 
   margin-bottom: 10vmin;
   margin-top: 10vmin;
 }
 
-/* ::-webkit-scrollbar {
-  width: 5vmin;
-} */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
@@ -43,8 +38,6 @@ main img {
 ::-webkit-scrollbar-thumb:hover {
   background: radial-gradient(#888, #ccc);
 }
-
-/* Scroll Snap */
 
 main {
   scroll-snap-type: y mandatory;
