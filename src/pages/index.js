@@ -4,7 +4,7 @@ import { homeObjOne, homeObjTwo } from '../components/InfoSection/Data'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
-import Services from '../components/Services'
+import Services from '../components/ServicesSection'
 import ContactSection from '../components/ContactSection'
 
 const Home = () => {
