@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TP-Website/static/css/main.f248b1b5.chunk.css",
-    "main.js": "/TP-Website/static/js/main.8e28bebc.chunk.js",
-    "main.js.map": "/TP-Website/static/js/main.8e28bebc.chunk.js.map",
+    "main.css": "/TP-Website/static/css/main.9adaaa68.chunk.css",
+    "main.js": "/TP-Website/static/js/main.09c955f2.chunk.js",
+    "main.js.map": "/TP-Website/static/js/main.09c955f2.chunk.js.map",
     "runtime-main.js": "/TP-Website/static/js/runtime-main.a0da35c1.js",
     "runtime-main.js.map": "/TP-Website/static/js/runtime-main.a0da35c1.js.map",
     "static/js/2.f4cd381d.chunk.js": "/TP-Website/static/js/2.f4cd381d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.787259ca.chunk.js": "/TP-Website/static/js/3.787259ca.chunk.js",
     "static/js/3.787259ca.chunk.js.map": "/TP-Website/static/js/3.787259ca.chunk.js.map",
     "index.html": "/TP-Website/index.html",
-    "static/css/main.f248b1b5.chunk.css.map": "/TP-Website/static/css/main.f248b1b5.chunk.css.map",
+    "static/css/main.9adaaa68.chunk.css.map": "/TP-Website/static/css/main.9adaaa68.chunk.css.map",
     "static/js/2.f4cd381d.chunk.js.LICENSE.txt": "/TP-Website/static/js/2.f4cd381d.chunk.js.LICENSE.txt",
     "static/media/Icon1.164fbdcd.jpg": "/TP-Website/static/media/Icon1.164fbdcd.jpg",
     "static/media/Icon2.c4ad8585.jpg": "/TP-Website/static/media/Icon2.c4ad8585.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a0da35c1.js",
     "static/js/2.f4cd381d.chunk.js",
-    "static/css/main.f248b1b5.chunk.css",
-    "static/js/main.8e28bebc.chunk.js"
+    "static/css/main.9adaaa68.chunk.css",
+    "static/js/main.09c955f2.chunk.js"
   ]
 }
