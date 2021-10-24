@@ -42,8 +42,6 @@ const InfoSection = ({
                 <SubHeading darkText={darkText}>{description}</SubHeading>
                 <BtnWrap>
                   <Button to='home'
-                  smooth={true}
-                  duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
