@@ -41,7 +41,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <SubHeading darkText={darkText}>{description}</SubHeading>
                 <BtnWrap>
-                  <Button to='home'
+                  <Button to='contact'
                   spy={true}
                   exact="true"
                   offset={-80}

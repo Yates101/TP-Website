@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './pages';
-import GalleryPage from './pages/gallery'
+import GalleryPage from './pages/galleryPage/gallery'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
